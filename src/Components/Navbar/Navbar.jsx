@@ -3,9 +3,16 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <>
+
+    <div className="main-nav flex items-center  px-[8%]  h-[80px]  shadow-lg" >
+     <div>
+        <img src="https://saylaniwelfareusa.com/static/media/logo_saylaniwelfareusa.22bf709605809177256c.png" alt="logo" className="flex items-center w-[170px] bg-transparent" />
+     </div>
+      <div>
       <Menu
+      className=" border-none font-normal hover:border-b-[#8DC63F]  hover:border-b-2 "
         mode="horizontal"
+        theme="light "
         items={[
           { label: "Home", key: "home" },
           { label: "About", key: "about" },
@@ -113,19 +120,32 @@ const Navbar = () => {
                   { label: "SaylaniJob Bank", key: "saylani jon bank" },
                 ],
               },
-              { label: "Disaster Aid", key: "disaster aid" ,
-              children:[
-                {label:"Corona Relief Program" , key:"corona relief program"},
-                {label:"Flood Relief Program" , key:"flood   relief program"},
-              ]
-            },
-              { label: "Saylani Ehsas", key: "sylani ehsas",
-              children:[
-                {label:"Langar Khana" , key:"langar khana"},
-                {label:"Panah gaah" , key:"panah gaah"},
-                {label:"Koe Bhooka Na Soye Ga" , key:"koe bhooka na soye ga"},
-              ]
-             },
+              {
+                label: "Disaster Aid",
+                key: "disaster aid",
+                children: [
+                  {
+                    label: "Corona Relief Program",
+                    key: "corona relief program",
+                  },
+                  {
+                    label: "Flood Relief Program",
+                    key: "flood   relief program",
+                  },
+                ],
+              },
+              {
+                label: "Saylani Ehsas",
+                key: "sylani ehsas",
+                children: [
+                  { label: "Langar Khana", key: "langar khana" },
+                  { label: "Panah gaah", key: "panah gaah" },
+                  {
+                    label: "Koe Bhooka Na Soye Ga",
+                    key: "koe bhooka na soye ga",
+                  },
+                ],
+              },
             ],
           },
           {
@@ -137,17 +157,23 @@ const Navbar = () => {
             ],
           },
           { label: "News", key: "news" },
-          { label: "Contact Us", key: "contact us",
-          children:[
-            {label:"Contact Us " , key:"contact us"},   
-            {label:"Branches" , key:"branches"}, 
-          ]
-         },
+          {
+            label: "Contact Us",
+            key: "contact us",
+            children: [
+              { label: "Contact Us ", key: "contact us" },
+              { label: "Branches", key: "branches" },
+            ],
+          },
           { label: "Bank Details", key: "bank details" },
         ]}
       ></Menu>
-      <Button type="dashed">hey </Button>
-    </>
+      </div>
+      <div>
+        <Button  className='bg-[#0D6DB7] hover:scale-110  mx-3 px-8 h-[40px] text-white'>Donate Now</Button>
+        <Button   className='bg-[#8DC63F] hover:scale-110  hover:text-white  px-8 h-[40px] text-white'>Be A Sponser</Button>
+      </div>
+    </div>
   );
 };
 
