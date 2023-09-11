@@ -1,9 +1,10 @@
 import "./App.css";
+import MobileMenu from "./Components/Menu/MobileMenu";
 
 function App() {
   return (
     <>
-      <h1>hello</h1>
+      <MobileMenu/>
     </>
   );
 }
