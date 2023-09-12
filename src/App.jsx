@@ -10,6 +10,7 @@ function App() {
       <ShowTime />
       <Navbar />
       <Home />
+      
     </>
   );
 }
