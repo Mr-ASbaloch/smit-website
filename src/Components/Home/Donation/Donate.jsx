@@ -16,7 +16,7 @@ const Donate = () => {
         </div>
       </div>
    
-      <img src="/public/95f11c54-b518-4d7f-8d24-b280acc9.jpg" alt="img"  className="rounded-md mt-5 md:h-[550px]  mb-5 md:w-full object-fit"/>
+      <img src="public/95f11c54-b518-4d7f-8d24-b280acc9.jpg" alt="img"  className="rounded-md mt-5 md:h-[550px]  mb-5 md:w-full object-fit"/>
    
     </div>
   );
