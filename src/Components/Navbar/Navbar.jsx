@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const navigate = useNavigate();
   return (
-    <div className="main-nav md:flex items-center  px-[8%]  h-[80px]  shadow-lg hidden ">
+    <div className="main-nav  md:flex items-center  px-[8%]  h-[80px]  shadow-lg hidden ">
       <div>
         <img
           src="https://saylaniwelfareusa.com/static/media/logo_saylaniwelfareusa.22bf709605809177256c.png"
