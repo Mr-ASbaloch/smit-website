@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const navigate = useNavigate();
   return (
-    <div className="main-nav flex items-center  px-[8%]  h-[80px]  shadow-lg">
+    <div className="main-nav md:flex items-center  px-[8%]  h-[80px]  shadow-lg hidden ">
       <div>
         <img
           src="https://saylaniwelfareusa.com/static/media/logo_saylaniwelfareusa.22bf709605809177256c.png"
@@ -16,7 +16,7 @@ const Navbar = () => {
       <div>
         <Menu
           onClick={(item) => {
-            navigate(`/${item.key}`);
+            navigate(`${item.key}`);
           }}
           className=" border-none font-normal hover:border-b-[#8DC63F]  hover:border-b-2 "
           mode="horizontal"
@@ -181,12 +181,12 @@ const Navbar = () => {
         ></Menu>
       </div>
       <div>
-        <Button className="bg-[#0D6DB7] hover:scale-110  mx-3 px-8 h-[40px] text-white">
+      <button className="bg-[#0D6DB7] hover:scale-110  mx-3 px-5 h-[38px] rounded-md text-white">
           Donate Now
-        </Button>
-        <Button className="bg-[#8DC63F] hover:scale-110  hover:text-white  px-8 h-[40px] text-white">
+        </button>
+        <button className="bg-[#8DC63F] hover:scale-110  hover:text-white  px-5  h-[38px] rounded-md   text-white">
           Be A Sponser
-        </Button>
+        </button>
       </div>
     </div>
   );

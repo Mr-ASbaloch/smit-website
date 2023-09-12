@@ -1,13 +1,15 @@
 import "./App.css";
-import PageContent from "./Components/Content/PageContent";
-import Navbar from "./Components/Navbar/Navbar";
 
+import Home from "./Components/Home/Home";
+import Navbar from "./Components/Navbar/Navbar";
+import ShowTime from "./Components/NavbarUpper/ShowTime";
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <PageContent/>
+      <ShowTime />
+      <Navbar />
+      <Home />
     </>
   );
 }
