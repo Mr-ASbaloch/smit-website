@@ -1,6 +1,7 @@
 import React from 'react'
 import About from './About/About'
 import Donate from './Donation/Donate'
+import OurWork from './Doings/OurWork'
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
     <div>
     <About/>
     <Donate/>
+    <OurWork/>
 
     </div>
   )
