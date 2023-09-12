@@ -4,9 +4,9 @@ import {IoIosArrowRoundForward} from 'react-icons/io'
 
 const About = () => {
   return (
-    <div className="main-about">
+    <div className="main-about px-[8%]  ">
       <div>
-        <div   className='p-5'>
+        <div   className='p-5 md:w-[50%] mt-5'>
           <p className="font-semibold text-3xl capitalize mt-5  ">
             Welcome to the <span className='text-[#97CB50] font-bold'> Saylani</span> welfare
           </p>
