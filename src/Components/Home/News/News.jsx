@@ -10,6 +10,7 @@ const News = () => {
       </h1>
       <div className="md:flex ">
         <Card
+        
           cover={
             <img
               src="https://res.cloudinary.com/saylani-welfare/image/upload/v1693455802/website-images/dynamic/9d1c0565-196f-416d-a18c-169599c3f34a.jpg"
@@ -25,7 +26,7 @@ const News = () => {
           <button className="px-3 p-1 mt-2  block bg-[#8DC63F] text-white rounded-md">
             wed August 30 2023
           </button>
-          <button className="bg-white text-center mt-3 flex items-center px-4 p-3 hover:scale-95">
+          <button className="bg-white text-center mt-3 flex items-center px-6 p-2 rounded-md hover:scale-95">
             <IoMdArrowForward size={20} />
           </button>
         </Card>
@@ -45,7 +46,7 @@ const News = () => {
           <button className="px-3 p-1 mt-2  block bg-[#8DC63F] text-white rounded-md">
             wed August 30 2023
           </button>
-          <button className="bg-white text-center mt-3 flex items-center px-4 p-3 hover:scale-95">
+          <button className="bg-white text-center mt-3 flex items-center px-6 p-2 rounded-md hover:scale-95">
             <IoMdArrowForward size={20} />
           </button>
         </Card>
@@ -65,7 +66,7 @@ const News = () => {
           <button className="px-3 p-1 mt-2  block bg-[#8DC63F] text-white rounded-md">
             wed August 30 2023
           </button>
-          <button className="bg-white text-center mt-3 flex items-center px-4 p-3 hover:scale-95">
+          <button className="bg-white text-center mt-3 flex items-center px-6 p-2 rounded-md hover:scale-95">
             <IoMdArrowForward size={20} />
           </button>
         </Card>
@@ -85,7 +86,7 @@ const News = () => {
           <button className="px-3 p-1 mt-2  block bg-[#8DC63F] text-white rounded-md">
             wed August 30 2023
           </button>
-          <button className="bg-white text-center mt-3 flex items-center px-4 p-3 hover:scale-95">
+          <button className="bg-white text-center mt-3 flex items-center px-6 p-2 rounded-md hover:scale-95">
             <IoMdArrowForward size={20} />
           </button>
         </Card>
