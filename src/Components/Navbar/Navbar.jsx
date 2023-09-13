@@ -1,6 +1,6 @@
 import { Button, Menu } from "antd";
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -181,10 +181,12 @@ const Navbar = () => {
         ></Menu>
       </div>
       <div>
-      <button className="bg-[#0D6DB7] hover:scale-110  mx-3 px-5 h-[38px] rounded-md text-white">
-          Donate Now
-        </button>
-        <button className="bg-[#8DC63F] hover:scale-110  hover:text-white  px-5  h-[38px] rounded-md   text-white">
+
+      <button className="bg-[#0D6DB7] hover:scale-110  mx-3 px-5 h-[38px] rounded-md text-white" >Donate Now</button>
+          
+ 
+
+        <button className="bg-[#8DC63F] hover:scale-110  hover:text-white  px-5  h-[38px] rounded-md   text-white" >
           Be A Sponser
         </button>
       </div>

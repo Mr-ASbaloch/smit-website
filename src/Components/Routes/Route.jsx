@@ -1,11 +1,12 @@
 import React from 'react'
 import { Routes,Route } from 'react-router-dom'
+import Donate from '../Donate/Donate'
 
 const Routing = () => {
   return (
     <div>
         <Routes>
-            <Route />
+            {/* <Route path='/donate'  element={<Donate/>}/> */}
         </Routes>
 
 

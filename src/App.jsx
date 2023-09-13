@@ -1,18 +1,20 @@
+import {  Route, Routes } from "react-router-dom";
 import "./App.css";
-import Footer from "./Components/Footer/Footer";
 
-import Home from "./Components/Home/Home";
-import Navbar from "./Components/Navbar/Navbar";
-import ShowTime from "./Components/NavbarUpper/ShowTime";
+import MainContent from "./Components/MainContent";
+import Donate from "./Components/Home/Donation/Donate";
+
 
 function App() {
   return (
     <>
-      <ShowTime />
-      <Navbar />
-      <Home />
-      <Footer/>
+      <MainContent/>
       
+      <Routes>
+        <Route path="/done" element={<Donate/>}/>
+        <Route/>
+      </Routes>
+     
     </>
   );
 }
