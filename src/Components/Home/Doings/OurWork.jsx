@@ -45,7 +45,7 @@ const OurWork = () => {
 {/* donate section  */}
 
         <div className="md:flex md:gap-8 mt-8 mb-5 mx-auto justify-between">
-          <div className="md:w-[30%] relative  ">
+          <div className="md:w-[30%] relative mb-5 md:mb-0 ">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZDhkG6BEh8o5HYbj9FVpR9QwH_hYJ8Gv4GCPOknx0W9NgXPJytlPm3U7_jx0nFzLr35A&usqp=CAU"
               alt="img"
@@ -58,7 +58,7 @@ const OurWork = () => {
               </button>
             </div>
           </div>
-          <div className="md:w-[30%] relative">
+          <div className="md:w-[30%] relative mb-5 md:mb-0">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcp3R2xoN-LfIbnga0SVIMiR7nB48_x9__r769itUEpwquy3cEbBrqpn7jxet3qkUEhlw&usqp=CAU"
               alt="img"
@@ -71,7 +71,7 @@ const OurWork = () => {
               </button>
             </div>
           </div>
-          <div className="md:w-[30%] relative">
+          <div className="md:w-[30%] relative mb-5 md:mb-0">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3ZQ8ExBMX8HY02BZ92nz-74Kq5h8CiYDZlg&usqp=CAU"
               alt="img"
