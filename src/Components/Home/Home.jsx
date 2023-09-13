@@ -5,6 +5,7 @@ import OurWork from './Doings/OurWork'
 import Testonomial from './Testonomials/Testonomial'
 
 import Updates from './MediaUpdates/Updates'
+import News from './News/News'
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
     <OurWork/>
     <Testonomial/>
   <Updates/>
+  <News/>
 
     </div>
   )
