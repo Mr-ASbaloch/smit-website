@@ -1,8 +1,10 @@
 import { Button } from "antd";
 import React from "react";
 import {IoIosArrowRoundForward} from 'react-icons/io'
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
+  const navigate = useNavigate()
   return (
     <div className="main-about px-[8%]  ">
       <div className="md:flex w-full mt-8 lg:mb-8">
@@ -15,7 +17,9 @@ const About = () => {
             communities to assess how best to support underprivileged families
             in more than 63 areas of day to day lives
           </p>
-          <Button className='flex items-center gap-5 h-[40px] mt-5 border-black lg:py-5 lg:mt-8'>Explore More  <IoIosArrowRoundForward size={25}/></Button>
+          <Button className='flex items-center gap-5 h-[40px] mt-5 border-black lg:py-5 lg:mt-8' onClick={ ()=>{
+            navigate('/about')
+          }}>Explore More  <IoIosArrowRoundForward size={25}/></Button>
         </div>
         <div className="hidden md:flex md:w-[50%]">
           <img src="/main.png" alt="main" />

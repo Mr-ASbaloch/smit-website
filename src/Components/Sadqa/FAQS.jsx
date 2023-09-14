@@ -19,6 +19,21 @@ const items = [
     label: "Can I cancel recurring donation subscription?",
     children: <p>{text}</p>,
   },
+  {
+    key: "4",
+    label: "How I will be notified when donation payment is charged?",
+    children: <p>{text}</p>,
+  },
+  {
+    key: "5",
+    label: "What does the message 'Your email is not verfied, to access the dashboard, please verify your email' means?",
+    children: <p>{text}</p>,
+  },
+  {
+    key: "6",
+    label: "Can I cancel recurring donation subscription?",
+    children: <p>{text}</p>,
+  },
 ];
 const Faqs = () => <Collapse accordion items={items} />;
 export default Faqs;

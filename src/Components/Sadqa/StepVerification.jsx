@@ -10,7 +10,7 @@ const Step = () => {
   return (
 
     <div className='hidden md:block mt-32 mb-20'>
-        <h1 className='text-center md:text-3xl mb-5 text-green-400 font-semibold'>Your Donations</h1>
+        {/* <h1 className='text-center md:text-3xl mb-5 text-green-400 font-semibold'>Your Donations</h1> */}
       <Steps
       
         current={current}
