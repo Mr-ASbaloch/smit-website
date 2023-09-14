@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path="/" element={<MainContent />} />
+        {/* <Route exact path="/" element={<MainContent />} /> */}
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contact" element={<ContactUs />} />
         <Route exact path="/services" element={<Services />} />
@@ -22,6 +22,7 @@ function App() {
         <Route exact path="/donate" element={< Sadqa/>} />
         <Route exact path="/sponser" element={<Sponser />} />
       </Routes>
+      <Sadqa/>
     </>
   );
 }
