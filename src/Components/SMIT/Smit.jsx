@@ -44,6 +44,7 @@ const Smit = () => {
             <img
               src="https://res.cloudinary.com/saylani-welfare/image/upload/v1646497311/website-images/static/24.jpg"
               alt="main"
+              className="md:h-[350px] flex mx-auto mt-auto"
             />
           </div>
         </div>

@@ -18,13 +18,14 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<MainContent />} />
-        <Route exact path="/about" element={<Intro />} />
-        <Route exact path="/contact" element={<ContactUs />} />
-        <Route exact path="/services" element={<Smit/>} />
-        <Route exact path="/media" element={<Books />} />
-        <Route exact path="/donate" element={<Sadqa />} />
-        <Route exact path="/sponser" element={<Sponser />} />
+        <Route  path="/about" element={<Intro />} />
+        <Route  path="/contact" element={<ContactUs />} />
+        <Route  path="/services" element={<Smit/>} />
+        <Route  path="/media" element={<Books />} />
+        <Route  path="/donate" element={<Sadqa />} />
+        <Route   path="/sponser" element={<Sponser />} />
       </Routes>
+     
      
     </>
   );

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Spin } from 'antd';
 
 const Loader = () => {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     // Simulate some asynchronous operation like fetching data
@@ -13,8 +13,8 @@ const Loader = () => {
   }, []);
 
   return (
-    <div  className={`fixed top-0 left-0 w-full h-full flex items-center justify-center bg-white ${loading ? 'block' : 'hidden'}`}>
-      <Spin size="large" />
+    <div  className={`fixed top-0 left-0 w-full text-green-600  h-full flex items-center justify-center ${loading ? 'block' : 'hidden'}`}>
+      <Spin size="large"  className='text-green-400 font-bold'/>
     </div>
   );
 };

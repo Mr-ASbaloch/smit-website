@@ -14,6 +14,7 @@ const Sadqa = () => {
   return (
     <>
 
+<Loader/>
 {loading ? (
         <Loader />
       ) :( <> 

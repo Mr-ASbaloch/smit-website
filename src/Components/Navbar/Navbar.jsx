@@ -24,7 +24,7 @@ const Navbar = () => {
             About
           </Link>
           <Link
-            to={"services"}
+            to={"/services"}
             className="hover:border-b-2 hover:border-b-green-500  "
           >
             Services

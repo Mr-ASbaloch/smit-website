@@ -1,4 +1,4 @@
-import { message } from "antd";
+import { Form, Input, message } from "antd";
 import React from "react";
 
 const Guide = () => {
@@ -16,21 +16,29 @@ const Guide = () => {
               Saylani Guide
             </h1>
             <div className="w-[85%] md:w-[30%] flex md:p-5  flex-col mt-3 mx-auto">
-              <input
-                type="email"
-                name="email"
-                id=""
-                placeholder="Enter E-mail Address"
-                className=" outline-none border border-white w-full md:p-2 mb-3 bg-transparent"
-              />
-              <button
-                className="bg-white text-black rounded-md p-1  md:p-2 font-bold capitalize  w-full mx-auto hover:scale-110 "
-                onClick={() => {
-                  message.error("fill the filed !");
-                }}
-              >
-                subscribe
-              </button>
+              <Form>
+                <Form.Item name="Email" hasFeedback  rules={[
+                  {
+                    required: true,
+                    message: "please enter valid email ",
+                  },
+                ]}>
+                  <Input
+                    type="email"
+      
+                   
+                    id=""
+                    placeholder="Enter E-mail Address"
+                    className=" outline-none border  rounded-md w-full md:p-2 mb-3 bg-white"
+                  />
+                </Form.Item>
+                <button
+                  type="submit"
+                  className="bg-white text-black rounded-md p-1  md:p-2 font-bold capitalize  w-full mx-auto hover:scale-110 "
+                >
+                  subscribe
+                </button>
+              </Form>
             </div>
           </div>
         </div>

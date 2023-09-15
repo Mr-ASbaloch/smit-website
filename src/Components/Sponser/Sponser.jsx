@@ -7,10 +7,12 @@ import Guide from "../Home/Guide/Guide";
 import Navbar from "../Navbar/Navbar";
 import ShowTime from "../NavbarUpper/ShowTime";
 import Counter from "./Counter";
+import Loader from "../Loader/Loader";
 
 const Sponser = () => {
   return (
     <>
+    <Loader/>
       <ShowTime />
       <Navbar />
       <div div className="md:px-[8%]">
