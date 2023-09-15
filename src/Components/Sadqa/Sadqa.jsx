@@ -6,10 +6,17 @@ import Footer from "../Footer/Footer";
 import Guide from "../Home/Guide/Guide";
 import Navbar from "../Navbar/Navbar";
 import ShowTime from "../NavbarUpper/ShowTime";
+import Loader from "../Loader/Loader";
+import { useState } from "react";
 
 const Sadqa = () => {
+  const [loading, setLoading] =useState(false)
   return (
     <>
+
+{loading ? (
+        <Loader />
+      ) :( <> 
     <ShowTime/>
     <Navbar/>
     <div className="main  md:px-[8%] md:mb-10">
@@ -89,6 +96,7 @@ const Sadqa = () => {
     </div>
     <Guide/>
     <Footer/>
+    </>)}
     </>
    
   );

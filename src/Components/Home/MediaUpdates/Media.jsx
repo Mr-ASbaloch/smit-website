@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { Badge, Button, Card, Modal } from "antd";
 import { AiOutlineYoutube } from "react-icons/ai";
+import Loader from "../../Loader/Loader";
 
 const Media = () => {
   const [modalVisible, setModalVisible] = useState(false);
 
   return (
     <>
+    <Loader/>
       <div className="main-card relative mb-5">
         <Badge.Ribbon text="Display Date ⏲" className=" md:px-8 ">
           <Card

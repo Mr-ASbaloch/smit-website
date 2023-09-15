@@ -3,10 +3,12 @@ import ShowTime from "../NavbarUpper/ShowTime";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import Guide from "../Home/Guide/Guide";
+import Loader from "../Loader/Loader";
 
 const Intro = () => {
   return (
     <>
+    <Loader/>
       <ShowTime />
       <Navbar />
       <div className="md:px-[8%]">
