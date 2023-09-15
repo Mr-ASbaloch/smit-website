@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Mobile from "./Mobile";
 
 const Navbar = () => {
   return (
+    <>
     <div className="md:px-[8%] hidden md:flex bg-white shadow-md h-16 py-2 sticky top-0 z-50  ">
       <div className=" flex items-center  gap-11">
         <img
@@ -56,7 +58,11 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
+   
     </div>
+    <Mobile/>
+    </>
+  
   );
 };
 
