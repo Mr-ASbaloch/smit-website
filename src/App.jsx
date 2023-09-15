@@ -11,6 +11,7 @@ import Sadqa from "./Components/Sadqa/Sadqa";
 import Sponser from "./Components/Sponser/Sponser";
 import Intro from "./Components/ChairmanMEssage/Intro";
 import Books from "./Components/Books/Books";
+import Smit from "./Components/SMIT/Smit";
 
 function App() {
   return (
@@ -19,12 +20,12 @@ function App() {
         <Route exact path="/" element={<MainContent />} />
         <Route exact path="/about" element={<Intro />} />
         <Route exact path="/contact" element={<ContactUs />} />
-        <Route exact path="/services" element={<Services />} />
+        <Route exact path="/services" element={<Smit/>} />
         <Route exact path="/media" element={<Books />} />
         <Route exact path="/donate" element={<Sadqa />} />
         <Route exact path="/sponser" element={<Sponser />} />
       </Routes>
-      {/* <ContactUs/> */}
+     
     </>
   );
 }
