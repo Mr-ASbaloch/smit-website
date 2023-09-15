@@ -23,7 +23,7 @@ const Mobile = () => {
         >
           <RiMenuSearchLine
             size={30}
-            className="flex font-bold text-green-500"
+            className="flex font-bold text-[#8DC63F]"
           />
         </h1>
       </div>

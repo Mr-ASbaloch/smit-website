@@ -10,7 +10,7 @@ const Guide = () => {
           alt="img"
           className="md:h-[300px] md:w-full md:object-cover"
         />
-        <div className="bg-[#136AAC] absolute top-0 w-full h-full md:h-[300px] opacity-80">
+        <div className="bg-[#8DC63F] absolute top-0 w-full h-full md:h-[300px] opacity-80">
           <div className="p-8">
             <h1 className="text-center font-bold text-white md:text-5xl ">
               Saylani Guide
